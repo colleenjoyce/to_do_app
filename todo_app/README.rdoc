@@ -1,0 +1,5 @@
+# TO DO APP
+
+A Backbone/Rails 4 application serving JSON responses with CRUD functionality in a single page view. 
+
+Created by Colleen Joyce and Sarah Adler for **General Assembly's WDI**, February 2014. 

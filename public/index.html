@@ -1,0 +1,74 @@
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+
+  <!-- Basic Page Needs
+  ================================================== -->
+  <meta charset="utf-8">
+  <title>To Do List</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  ================================================== -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <!-- CSS
+  ================================================== -->
+  <link rel="stylesheet" href="stylesheets/styles.css">
+  <link rel="stylesheet" href="stylesheets/base.css">
+  <link rel="stylesheet" href="stylesheets/skeleton.css">
+  <link rel="stylesheet" href="stylesheets/layout.css">
+
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+  <!-- Favicons
+  ================================================== -->
+  <link rel="shortcut icon" href="images/favicon.ico">
+  <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+
+</head>
+<body>
+
+
+
+  <!-- Primary Page Layout
+  ================================================== -->
+
+  <div class="container">
+    <div class="sixteen columns">
+      <h1>TO DO LIST</h1>
+
+      <hr>
+      
+      <form id="item-form">
+        <input id="task-field" placeholder='ITEM' type="text">
+        <input id="due-date-field" placeholder='DUE DATE' type="text">
+        <button type="submit">Submit</button>
+      </form>
+
+      <ul id='todo-list'></ul>
+
+      <script id='itemview-template' type='text/template'>
+          <span id="task" class="pull-left"><%= task %></span>
+          <span id="due_date" class="pull-right"><%= due_date %></span><button id="destroy">Done</button>
+      </script>
+
+      <script type="text/javascript" src='javascripts/libraries/jquery.js'></script>
+      <script type="text/javascript" src='javascripts/libraries/underscore.js'></script>
+      <script type="text/javascript" src='javascripts/libraries/backbone.js'></script>
+     <script type="text/javascript" src='javascripts/app.js'></script>
+  </div>
+  </div><!-- container -->
+
+
+<!-- End Document
+================================================== -->
+</body>
+</html>

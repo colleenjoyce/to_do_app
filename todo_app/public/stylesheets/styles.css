@@ -1,0 +1,36 @@
+input { margin-top: 40px; padding: 7px; font-size: 12px; }
+
+input[id="task-field"] { width: 70%; }
+
+input[id="due-date-field"] { margin-left: 10px; margin-right: 10px; width: 12%; }
+
+button 
+  { border-radius: 5px;
+	height: 35px;
+	background-color: black;
+	border: none;
+	color: white;
+	text-transform: uppercase;
+	width: 85px;
+	padding: 10px;
+	margin: 0auto;
+	font-size: 12px; }
+
+button:hover { background-color:#09FDC9; }
+
+#task.pull-left 
+  { margin-right: 583px;
+	margin-top: 40px;
+	padding: 6px 4px;
+	width: 175%; }
+
+#due_date.pull-right 
+  { margin-top: 40px;
+	margin-left: 10px;
+	margin-right: 96px;
+	padding-left: 10px;
+	width: 20%; }
+
+ul { margin-top: 20px; padding: 0px; }
+
+
