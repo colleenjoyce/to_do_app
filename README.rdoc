@@ -1,4 +1,4 @@
-# TO DO APP
+TO DO APP
 
 A Backbone/Rails 4 application serving JSON responses with CRUD functionality in a single page view. 
 
